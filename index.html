@@ -69,11 +69,11 @@
   </header>
   <div class="content">
     <img src="cece.jpg" alt="Foto Cece" class="photo" />
-    <p>Hari ini, dunia jadi lebih cerah karena Cece lahir!</p>
-    <p>Semoga hari spesialmu dipenuhi tawa, cinta, dan kejutan indah.</p><div class="game-section">
-  <h2>Main Yuk!</h2>
-  <p>Jawab pertanyaan ini:</p>
-  <p><strong>Apa warna favorit Cece?</strong></p>
+    <p>Hari ini, dunia jadi lebih cerah karena kamu lahir anjay! pasti mak bapakmu bangga</p>
+    <p>Semoga panjang umur sehat selalu, pokoknya tambah cantikkkkk</p><div class="game-section">
+  <h2>isi doa harapanmu disini!</h2>
+  <p>jawab yaa:</p>
+  <p><strong>Apa harapanmu diumur sekarang</strong></p>
   <input type="text" id="answer" placeholder="Tulis jawabanmu di sini" />
   <br />
   <button onclick="checkAnswer()">Submit</button>
@@ -97,12 +97,10 @@
     function checkAnswer() {
       const answer = document.getElementById("answer").value.trim().toLowerCase();
       const result = document.getElementById("result");
-      if (answer === "pink") {
-        result.innerHTML = "Yeeey! Bener! Nih, dengerin pesan dari aku ya.";
+      if (answer === " ") {
+        result.innerHTML = "hahaha dah ngisi mari kita dengarkan suara merduku wkwk";
         document.getElementById("voiceNote").style.display = "block";
-      } else {
-        result.innerHTML = "Hmm, coba tebak lagi yuk!";
-      }
+      } 
     }
   </script></body>
 </html>
